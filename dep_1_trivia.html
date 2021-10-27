@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herramientas Multimedia</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="/js/dep_1_trivia.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <a class="header" href="index.html">
+            <img class="header__imagen" src="/img/Logo.jpeg" alt="logo pagina">
+            <h1 class="titulo">Kakashi <span>Departamental 1</span></h1>
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace" href="index.html">Inicio</a>
+        <a class="navegacion__enlace" href="equipo.html">Equipo</a>
+        <a class="navegacion__enlace" href="trabajos.html">Trabajos</a>
+    </nav>
+
+    <main class="contenedor sombra dep_1__trivia">
+        <h2 class="dep1_trivia--titulo">Trivia</h2>
+        <hr>
+        <form class="form__trivia">
+            <div class ="trivia__contenedor">
+                <p class="trivia__pregunta trivia__pregunta--pregunta1">¿Cuáles son las etapas de la creatividad?</p>
+                <p class="trivia__respuesta"><input type="radio" name="pregunta1" id="p11"> a) Pensamiento, coherencia,
+                    habilidad, formacion.</p>
+                <p class="trivia__respuesta"><input type="radio" name="pregunta1" id="p12"> b) Preparacion, incubacion,
+                    iluminacion, verificacion.</p>
+                <p class="trivia__respuesta"><input type="radio" name="pregunta1" id="p13"> c) Coherencia, preparacion,
+                    formacion, inovacion.</p>
+                <p class="trivia__respuesta"><input type="radio" name="pregunta1" id="p14"> d) Iluminacion, capacidad,
+                    verificacion, pensamiento.</p>
+            </div>
+
+            <div class ="trivia__contenedor">
+                <p class="trivia__pregunta trivia__pregunta--pregunta2">¿Qué es la "Creatividad"?</p>
+                <p class="trivia__respuesta"><input type="radio" name="pregunta2" id="p21"> a) La forma de copiar para
+                    hacer
+                    tus trabajos.</p>
+                <p class="trivia__respuesta"><input type="radio" name="pregunta2" id="p22"> b) La habilidad de memorizar
+                    algo.</p>
+                <p class="trivia__respuesta"><input type="radio" name="pregunta2" id="p23"> c) La habilidad de inventar
+                    o
+                    crear soluciones para algún trabajo.</p>
+                <p class="trivia__respuesta"><input type="radio" name="pregunta2" id="p24"> d) Una paralabra que no
+                    existe.
+                </p>
+            </div>
+
+            <div class ="trivia__contenedor">
+                <p class="trivia__pregunta trivia__pregunta--preguntadificil">¿Qué es la "semiotica"?</p>
+                <p class="trivia__respuesta"><input type="radio" name="pregunta3" id="p31"> a) Es el estudio comparativo
+                    de
+                    los sistemas de signos.</p>
+                <p class="trivia__respuesta"><input type="radio" name="pregunta3" id="p32"> b) Conjunto de palabras
+                    conocidas de un idioma,lo que recogen los diccionarios de dicha lengua.</p>
+                <p class="trivia__respuesta"><input type="radio" name="pregunta3" id="p33"> c) Estudio de los
+                    significados
+                    de las palabras.</p>
+                <p class="trivia__respuesta"><input type="radio" name="pregunta3" id="p34"> d) Consiste en hacer
+                    corresponder dos elementos de la imagen entre sí.</p>
+            </div>
+
+            <div class ="trivia__contenedor">
+                <p class="trivia__pregunta trivia__pregunta--preguntafacil">Habilidad del ser humano para inventar o crear cosas:</p>
+                <p class="trivia__respuesta"><input type="radio" name="pregunta4" id="p41"> a) Innovación.</p>
+                <p class="trivia__respuesta"><input type="radio" name="pregunta4" id="p42"> b) Pensamiento.</p>
+                <p class="trivia__respuesta"><input type="radio" name="pregunta4" id="p43"> c) Ilusión.</p>
+                <p class="trivia__respuesta"><input type="radio" name="pregunta4" id="p44"> d) Creatividad.</p>
+
+            </div>
+
+            <div class ="trivia__contenedor">
+                <p class="trivia__pregunta trivia__pregunta--preguntamedio">Conjunto de métodos para diseñar contenidos que integren soportes tales
+                    como:
+                    texto, imagen, video, audio, etc.</p>
+                <p class="trivia__respuesta"><input type="radio" name="pregunta5" id="p51"> a) Multimedia.</p>
+                <p class="trivia__respuesta"><input type="radio" name="pregunta5" id="p52"> b) Hipermedia.</p>
+                <p class="trivia__respuesta"><input type="radio" name="pregunta5" id="p53"> c) Múltiples medios.</p>
+                <p class="trivia__respuesta"><input type="radio" name="pregunta5" id="p54"> d) Diseño.</p>
+            </div>
+
+            <div class ="trivia__contenedor">
+                <p class="trivia__pregunta trivia__pregunta--pregunta6">Disciplina que se ocupa del estudio comparativo de los sistemas de signos:
+                </p>
+                <p class="trivia__respuesta"><input type="radio" name="pregunta6" id="p61"> a) Multimedia.</p>
+                <p class="trivia__respuesta"><input type="radio" name="pregunta6" id="p62"> b) Semiótica.</p>
+                <p class="trivia__respuesta"><input type="radio" name="pregunta6" id="p63"> c) Semántica.</p>
+                <p class="trivia__respuesta"><input type="radio" name="pregunta6" id="p64"> d) Multimedia digital.</p>
+
+            </div>
+
+            <p class="boton--fin"><input class="boton" type="button" value="Finalizar" onclick="resultado()" /></p>
+        </form>
+    </main>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace" href="index.html">Inicio</a>
+        <a class="navegacion__enlace" href="equipo.html">Equipo</a>
+        <a class="navegacion__enlace" href="trabajos.html">Trabajos</a>
+    </nav>
+
+    <footer class="footer">
+        <p class="footer__texto">Todos los derechos reservados. Donovan Eliosa</p>
+    </footer>
+
+</body>
+
+</html>

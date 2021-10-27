@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Indicar las espeificaciones de la pagina -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herramientas Multimedia</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <a class="header" href="index.html">
+            <img class="header__imagen" src="/img/Logo.jpeg" alt="logo pagina">
+            <h1 class="titulo">Kakashi <span>Departamental 2</span></h1>
+        </a>
+    </header>
+
+    <nav class="navegacion navegacion--dep2">
+        <a class="navegacion__enlace navegacion__enlace--dep2" href="index.html">Inicio</a>
+        <a class="navegacion__enlace navegacion__enlace--dep2" href="equipo.html">Equipo</a>
+        <a class="navegacion__enlace navegacion__enlace--dep2" href="trabajos.html">Trabajos</a>
+    </nav>
+
+    <h2 class="sombra subtitulo subtitulo--dep2">Investigaciones</h2>
+
+    <main class="dep2_contenido">
+
+        <section class="dep2__centro">
+            <div class="dep__imagen dep2__imagen--opensource"></div>
+            <div class="">
+                <h3 class="dep_1_contenido__subtitulo">¿Qué es la tecnología "Open Source" para
+                    la multimedia?
+                </h3>
+                <p>
+                    El software open source es un código diseñado de manera que sea accesible al público: todos
+                    pueden ver, modificar y distribuir el código de la forma que consideren conveniente. Se
+                    desarrolla de manera descentralizada y colaborativa, así que depende de la revisión entre
+                    compañeros y la producción de la comunidad. Además, suele ser más económico, flexible y duradero
+                    que sus alternativas propietarias, ya que las encargadas de su desarrollo son las comunidades y
+                    no un solo autor o una sola empresa.
+                </p>
+            </div>
+            <div class="dep__imagen dep2__imagen--opensource2"></div>
+        </section>
+        <aside class="aside--izquierda">
+
+            <div class="dep2_aside">
+                <div class="dep2_aside__imagen dep2_aside__imagen--contenido1"></div>
+                <div>
+                    <h3 class="dep_1_contenido__subtitulo">¿Qué es la "Web"?</h3>
+
+                    <p>
+                        La palabra “Web” viene de la palabra inglesa “telaraña” o “red” y es el
+                        diminutivo de World Wide Web o www. Es un conjunto de documentos interconectados por enlaces de
+                        hipertexto, disponibles en internet que se pueden comunicar a través de la
+                        tecnología digital
+                    </p>
+                </div>
+            </div>
+
+            <div class="dep2_aside">
+                <div>
+                    <h3 class="dep_1_contenido__subtitulo">¿Qué es una página estática?</h3>
+
+                    <p>
+                        Una página web estática es un sitio de Internet que muestra el mismo contenido para todos los
+                        usuarios, en vez de proporcionar contenido personalizado a la medida de cada usuario, y que no
+                        se actualiza a menudo.
+                    </p>
+                </div>
+                <div class="dep2_aside__imagen dep2_aside__imagen--contenido2"></div>
+            </div>
+            <div class="dep2_aside">
+                <div class="dep2_aside__imagen dep2_aside__imagen--contenido3"></div>
+                <div>
+                    <h3 class="dep_1_contenido__subtitulo">¿Qué es una página dinámica?</h3>
+
+                    <p>
+                        Los sitios web dinámicos son aquellos que permiten crear aplicaciones dentro de la propia web,
+                        otorgando una mayor interactividad con el navegante. Aplicaciones como encuestas,
+                        votaciones, noticiarios, etc. donde el administrador dispone la opción de gestionar dichos
+                        apartados.
+                    </p>
+                </div>
+            </div>
+        </aside>
+
+        <aside>
+
+            <div class="dep2_aside">
+
+                <div>
+                    <h3 class="dep_1_contenido__subtitulo">¿Qué es la Realidad Virtual?</h3>
+
+                    <p>
+                        Es un entorno de escenas y objetos de apariencia real —generado mediante tecnología informática—
+                        que crea en el usuario la sensación de estar inmerso en él.
+                    </p>
+                </div>
+                <div class="dep2_aside__imagen dep2_aside__imagen--contenido6"></div>
+            </div>
+
+            <div class="dep2_aside">
+                <div>
+                    <h3 class="dep_1_contenido__subtitulo">¿Qué son las aplicaciones de inmersión?</h3>
+
+                    <p>
+                        La aplicación de la realidad virtual (RV) y la realidad aumentada (RA) en prácticas
+                        industriales, educativas, de diseño, marketing y otras. Se trata de que la persona que entre en
+                        contacto con esta tecnología se sienta inmersa en este tipo de realidades para lograr objetivos
+                        determinados.
+                    </p>
+                </div>
+                <div class="dep2_aside__imagen dep2_aside__imagen--contenido4"></div>
+            </div>
+            <div class="dep2_aside">
+
+                <div>
+                    <h3 class="dep_1_contenido__subtitulo">¿Qué son las aplicaciones de no inmersión?</h3>
+
+                    <p>
+                        No inmersa utiliza también el ordenador y se vale de medios como el que actualmente nos ofrece
+                        Internet, en el cual se puede interactuar en tiempo real con diferentes personas en espacios y
+                        ambientes que en realidad no existen sin la necesidad de dispositivos adicionales al ordenador.
+                        El uso del casco de realidad virtual (HMD)
+                    </p>
+                </div>
+                <div class="dep2_aside__imagen dep2_aside__imagen--contenido5"></div>
+            </div>
+
+            <p id="ejemplo"></p>
+            <div class="contenido--boton">
+                <input class="boton boton--dep2" type="button" value="Trivia?" onclick="alerta()" />
+            </div>
+        </aside>
+
+    </main>
+
+    <nav class="navegacion navegacion--dep2">
+        <a class="navegacion__enlace navegacion__enlace--dep2" href="index.html">Inicio</a>
+        <a class="navegacion__enlace navegacion__enlace--dep2" href="equipo.html">Equipo</a>
+        <a class="navegacion__enlace navegacion__enlace--dep2" href="trabajos.html">Trabajos</a>
+    </nav>
+
+    <!-- <script async type="text/javascript"
+        src="https://userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/a05021ad37fb4704bf770d7c4160ff5f054cd9eab32841f9b9367ca86197fadb.js">
+        </script> -->
+
+    <script src="/js/dep_2_contenido.js"></script>
+
+    <footer class="footer">
+        <p class="footer__texto">Todos los derechos reservados. Donovan Eliosa</p>
+    </footer>
+</body>
