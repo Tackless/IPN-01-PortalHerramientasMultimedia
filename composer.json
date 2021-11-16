@@ -1,0 +1,19 @@
+{
+    "name": "oswal/portal-herramientas-multimedia",
+    "description": "Portal de la materia Herramientas Multimedia",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Donovan Eliosa",
+            "email": "oswaldo.d.b.e@hotmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Model\\" : "./models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers"
+        }
+    }
+}
