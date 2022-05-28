@@ -353,6 +353,10 @@ hr{
 /* Footer */
 .footer__texto {text-align: center;}
 
+.footer__texto a {
+    color: magenta;
+}
+
 .espacio{
     padding: 1rem;
 }

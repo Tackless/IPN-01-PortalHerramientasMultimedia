@@ -282,6 +282,10 @@ span{font-size: 3rem;}
 /* Footer */
 .footer__texto {text-align: center;}
 
+.footer__texto a {
+    color: magenta;
+}
+
 /* 
     Departamental 1
 */
